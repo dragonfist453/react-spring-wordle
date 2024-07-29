@@ -286,6 +286,8 @@ With this, we add a transform to the animated.div of class "front-box" to flip r
 
 Now, the animation will work!! or... wait, why they are flipping into oblivion 😱
 
+![Animation without back box](docs/Animation2.gif)
+
 If you answered, "hey, we didn't use the back-box!", you have really been paying attention! Let's fix that.
 
 We make another animated.div just like "front-box", with class "back-box" but with transform having 180-rotateX deg, as it has to be rotated on the other side of the front box. The element will look like:
